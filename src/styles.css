@@ -553,7 +553,7 @@
     }
 
     .copy {
-      @apply p-1 text-text-muted opacity-0 transition-opacity hover:text-white;
+      @apply p-1 text-text-muted opacity-0 transition-opacity hover:text-black;
     }
 
     &:hover .copy {
@@ -589,7 +589,7 @@
     }
 
     .open {
-      @apply flex items-center gap-1 text-xs font-semibold text-text-muted transition-colors hover:text-white;
+      @apply flex items-center gap-1 text-xs font-semibold text-text-muted transition-colors hover:text-black;
     }
 
     .save {
